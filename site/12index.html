@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Pseudo Class Selectors</title>
+<style>
+/* Styles go here.*/
+header li{
+	list-style: none;
+}
+a:link, a:visited{
+	text-decoration: none;
+	background-color: green;
+	border: 2px solid red;
+	color: white;
+	display: block;
+	width: 200px;
+	text-align: center;
+	margin-bottom: 1px;
+}
+a:hover, a:active{
+	background-color: white;
+	color: purple;
+	font-size: 10px;
+}
+header li:nth-child(3) {
+	color: orange; 
+	background-color: blue;
+	font-size: 24px;
+}
+ section div:nth-child(odd) {
+	background-color: black;
+	color: white;
+}
+
+</style>
+</head>
+<body>
+<h1>Pseduo Class Selectors</h1>
+<header>
+<ul>
+	<li><a href="/">Home</a></li>
+	<li><a href="http://goo.gl/v0wl6s" target="_blank">AngularJs Course</a></li>
+	<li><a href="http://www.facebook.com" target="_blank">Facebook</a></li>
+</ul>
+</header>
+<section>
+<div>div1</div>
+<ul><li><a href="http://www.google.co.in" target="_blank">Google</a></li></ul>
+<div>div2</div>
+<div>div3</div>
+<div>div4</div>
+<div>div5</div>
+<div>div6</div>
+<div>div7</div>
+<div>div8</div>
+<div>div9</div>
+<div>div10</div>
+</section>
+</body>
+</html>
